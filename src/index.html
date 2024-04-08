@@ -9,8 +9,594 @@
 </head>
 
 <body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
+
+  <!-- Header -->
+  <header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary fw-semibold fs-6" href="#">
+          <i class="fab fa-bootstrap"></i> 
+          <small>Chaska Gonzales</small>
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">
+              <small>Features</small>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-n3" href="#plans">
+              <small>Plans</small>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">
+              <small>Pricing</small>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-n3" href="#gallery">
+              <small>Gallery</small>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">
+              <small>Projects</small>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container-fluid bg-primary bg-gradient pb-5 pt-3">
+      <p class="h1 fw-bold">A bootstrap demo</p>
+      <p class="lead lh-sm">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat architecto 
+        voluptas ex neque porro alias deserunt, ut natus laborum fugit laboriosam quisquam cum 
+        nisi at quam nostrum. Qui, ullam!
+      </p>
+      <div class="d-flex justify-content-center me-2">
+        <button type="button" class="btn btn-info">
+          Click here to see more
+        </button>
+        <button type="button" class="btn btn-warning ms-2">
+          Click here to see a demo
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Body -->
+  <main class="container-fluid">
+    <div class="row">
+
+      <!-- Empty Column -->
+      <div class="col-1"></div>
+
+      <!-- Main Content-->
+      <div class="col-10">
+        <div class="ms-5 container-fluid">
+
+          <!-- Features -->
+          <div class="row py-5" id="features">
+            <div class="d-flex flex-column">
+              <div class="col">
+                <p class="text-primary text-center h1 fw-normal">Features</p>
+              </div>
+              <div class="col me-1">
+                <p class="lead lh-sm fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ducimus optio rem 
+                  est, veniam voluptates eligendi harum at, id vitae voluptatibus ab, dicta 
+                  quaerat saepe esse officiis quis vero sapiente
+                </p>
+              </div>
+            </div>
+            <div class="d-flex flex-row ms-n2 pb-5">
+              <div class="col ms-3">
+                <div class="card" aria-hidden="true">
+                  <img src="images/razzmatazz-background.jpg" class="card-img-top" 
+                    alt="primary color">
+                  <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                      <span class="placeholder col-7 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                      <span class="placeholder col-8 placeholder-sm"></span>
+                    </p>
+                    <a class="btn btn-primary disabled placeholder col-6" 
+                      aria-disabled="true"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col mx-4">
+                <div class="card" aria-hidden="true">
+                  <img src="images/razzmatazz-background.jpg" class="card-img-top" 
+                    alt="primary color">
+                  <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                      <span class="placeholder col-7 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                      <span class="placeholder col-8 placeholder-sm"></span>
+                    </p>
+                    <a class="btn btn-primary disabled placeholder col-6" 
+                      aria-disabled="true"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col me-5">
+                <div class="card" aria-hidden="true">
+                  <img src="images/razzmatazz-background.jpg" class="card-img-top" 
+                    alt="primary color">
+                  <div class="card-body">
+                    <h5 class="card-title placeholder-glow">
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                    </h5>
+                    <p class="card-text placeholder-glow">
+                      <span class="placeholder col-7 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-4 placeholder-sm"></span>
+                      <span class="placeholder col-6 placeholder-sm"></span>
+                      <span class="placeholder col-8 placeholder-sm"></span>
+                    </p>
+                    <a class="btn btn-primary disabled placeholder col-6" 
+                      aria-disabled="true"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plans -->
+          <div class="row me-5 ms-2" id="plans">
+            <div class="d-flex flex-row">
+              <div class="col-5">
+                <p class="text-primary text-center h1 fw-normal">Plans</p>
+                <p class="lead lh-sm fs-5 pt-3">
+                  Lorem ipsum dolor sit, amet conse ctetur adipis icing elit. Delectus perfer 
+                  endis veritatis doloremque nostrum quos iste quia, eligendi illum ducimus, 
+                  repudiandae illo necessi tatibus volup tatibus. Vitae tempora animi dignis 
+                  simos! Illum, sunt delectus!
+                </p>
+              </div>
+              <div class="col-7">
+                <table class="table">
+                  <thead class="table-group-divider">
+                    <tr>
+                      <th scope="col">Features</th>
+                      <th scope="col" class="text-center">Free</th>
+                      <th scope="col" class="bg-primary text-white text-center px-4">Pro</th>
+                      <th scope="col" class="text-center">Enterprise</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-group-divider">
+                    <tr>
+                      <td>Lorem ipsum dolor</td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Sit amet consectetur</td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Adipisicing elit atque</td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Nemo rerum esse tempore</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Quasi nesciunt commodi</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Odit in nihil labore</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="text-white bg-primary text-center">
+                        <i class="far fa-check-circle"></i>
+                      </td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Cupiditate id debitis</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="bg-primary"></td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Aperiam quia quae cum</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="bg-primary"></td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Eligendi blanditiis</td>
+                      <td class="text-center text-danger"><i class="fas fa-times"></i></td>
+                      <td class="bg-primary"></td>
+                      <td class="text-center"><i class="far fa-check-circle"></i></td>
+                    </tr>
+                    <tr class="table-group-divider"></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="row me-4 py-5" id="pricing">
+            <div class="d-flex flex-column">
+              <div class="col text-center pb-3">
+                <p class="text-primary h1 fw-normal">Pricing</p>
+                <p class="lead lh-sm fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ducimus optio 
+                  rem est, veniam voluptates eligendi harum at, id vitae voluptatibus ab, dicta 
+                  quaerat saepe esse officiis quis vero sapiente!
+                </p>
+              </div>
+            </div>
+            <div class="d-flex flex-row ms-1">
+
+              <!-- First Card -->
+              <div class="col">
+                <div class="card border-primary">
+                  <div class="card-header text-center">
+                    Free
+                  </div>
+                  <div class="card-body text-center d-flex flex-column pt-5">
+                    <p class="pb-3">
+                      <span class="h2">$0</span><span 
+                      class="h3 fw-normal text-secondary">/mo</span>
+                    </p>
+                    <button type="button" class="btn text-primary btn-outline-primary">
+                      Sign up for free
+                    </button>
+                    <ul class="list-group list-group-flush pt-5">
+                      <li class="list-group-item"></li>
+                      <li class="list-group-item">10 users included</li>
+                      <li class="list-group-item">2 GB of storage</li>
+                      <li class="list-group-item">Email support</li>
+                      <li class="list-group-item">Help center access</li>
+                      <li class="list-group-item"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Card -->
+              <div class="col px-3">
+                <div class="card border-secondary">
+                  <div class="card-header text-center bg-secondary text-white">
+                    Pro
+                  </div>
+                  <div class="card-body text-center d-flex flex-column pt-5">
+                    <p class="pb-3">
+                      <span class="h2">$15</span><span 
+                        class="h3 fw-normal text-secondary">/mo</span>
+                    </p>
+                    <button type="button" class="btn btn-secondary">
+                      Get started
+                    </button>
+                    <ul class="list-group list-group-flush pt-5">
+                      <li class="list-group-item"></li>
+                      <li class="list-group-item">20 users included</li>
+                      <li class="list-group-item">10 GB of storage</li>
+                      <li class="list-group-item">Priority email support</li>
+                      <li class="list-group-item">Help center access</li>
+                      <li class="list-group-item"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Card -->
+              <div class="col me-1">
+                <div class="card border-primary">
+                  <div class="card-header text-center text-white bg-primary">
+                    Enterprise
+                  </div>
+                  <div class="card-body text-center d-flex flex-column pt-5">
+                    <p class="pb-3">
+                      <span class="h2">$29</span><span 
+                        class="h3 fw-normal text-secondary">/mo</span>
+                    </p>
+                    <button type="button" class="btn btn-primary">
+                      Contact us
+                    </button>
+                    <ul class="list-group list-group-flush pt-5">
+                      <li class="list-group-item"></li>
+                      <li class="list-group-item">30 users included</li>
+                      <li class="list-group-item">20 GB of storage</li>
+                      <li class="list-group-item">Phone email support</li>
+                      <li class="list-group-item">Help center access</li>
+                      <li class="list-group-item"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery -->
+          <div id="gallery" class="me-4">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col me-n3">
+                  <div class="row d-flex flex-column">
+                    <div class="col text-center">
+                      <p class="text-primary h1 fw-normal galleryTitle">Gallery</p>
+                    </div>
+                    <div class="col pb-1">
+                      <div class="row d-flex flex-row">
+                        <div class="col me-n3">
+                          <img src="images/daniel-monteiro-COgbRUTvL-s-unsplash.jpg" 
+                            class="img-fluid" alt="Girl chewing bubblegum">
+                        </div>
+                        <div class="col ms-n1">
+                          <img src="images/daniel-monteiro-VVCq5tSLQ-U-unsplash.jpg" 
+                            class="img-fluid" alt="Girl close to blue light">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="images/michael-kemp-aC8_GKNHodw-unsplash.jpg" 
+                        class="img-fluid" alt="Girl looking at a sign">
+                    </div>
+                  </div>
+                </div>
+                <div class="col me-n3 ms-n1">
+                  <div class="row d-flex flex-column">
+                    <div class="col pb-1">
+                      <img src="images/daniel-monteiro-uGVqeh27EHE-unsplash.jpg" 
+                        class="img-fluid" alt="Girl holding her head">
+                    </div>
+                    <div class="col">
+                      <img src="images/pablo-padilla-vG_Lj_laAKM-unsplash.jpg" 
+                        class="img-fluid" alt="Woman smiling">
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-n1">
+                  <div class="row d-flex flex-column">
+                    <div class="col">
+                      <div class="row d-flex flex-row">
+                        <div class="col me-n1">
+                          <img src="images/daniel-monteiro-37uZlXLYpGo-unsplash.jpg" 
+                            class="img-fluid" alt="Woman looking behind her">
+                        </div>
+                        <div class="col me-n1 ms-n3">
+                          <img src="images/daniel-monteiro-4KZ0iCFEG78-unsplash.jpg" 
+                            class="img-fluid" alt="Girl smoking">
+                        </div>
+                        <div class="col ms-n3">
+                          <img src="images/daniel-monteiro-u8yJtV_9M9U-unsplash.jpg" 
+                            class="img-fluid" alt="Girl touching an LED sign">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mt-1">
+                      <img src="images/daniel-monteiro-WWcL2OQRR6c-unsplash.jpg" 
+                        class="img-fluid" alt="Man in the shadow smoking">
+                    </div>
+                    <div class="col mt-1">
+                      <div class="row d-flex flex-row">
+                        <div class="col me-n1">
+                          <img src="images/mike-perez-aslf3jEpDBI-unsplash.jpg" 
+                            class="img-fluid" alt="Las Vegas Strip covered in rain">
+                        </div>
+                        <div class="col ms-n3">
+                          <img src="images/creedi-zhong-cPDYIQ6l65A-unsplash.jpg" 
+                            class="img-fluid" alt="Different signs">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-1">
+                <div class="col me-n3">
+                  <img src="images/levon-vardanyan-EBkS_9Ksm8g-unsplash.jpg" 
+                    class="img-fluid" alt="Parking Lot">
+                </div>
+                <div class="col ms-n1">
+                  <img src="images/levon-vardanyan-zQyEvJ9Xx1U-unsplash.jpg" 
+                    class="img-fluid" alt="Cars parked at both sides of a street">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects -->
+          <div class="row pb-1 pt-5" id="projects">
+            <div class="col text-center">
+
+              <!-- Text -->
+              <p class="text-primary h1 fw-normal">Top projects</p>
+              <p class="lead lh-sm fs-5 pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur 
+                molestias dolorem suscipit. Laudantium, quibusdam at sunt pariatur labore 
+                ullam aliquid cumque?
+              </p>
+
+              <!-- The projects -->
+              <div class="row text-start ms-4 mb-1">
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Lorem dolor sit amet consectetur</p>
+                      <p class="mt-n3 fs-6">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, 
+                        laudantium ex eius minus omnis nobis!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Repellendus reprehenderit voluptates</p>
+                      <p class="mt-n3 fs-6">
+                        Repellendus reprehenderit voluptates cupiditate, esse beatae illo 
+                        ipsam, cum fugiat modi vero doloribus ipsum?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-start ms-4 mb-1">
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Fugiat ea ipsum repudiandae</p>
+                      <p class="mt-n3 fs-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, 
+                        delectus illo reprehenderit possimus error!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Ipsa aspernatur dolore laborum</p>
+                      <p class="mt-n3 fs-6">
+                        Adipisicing elit dolores aliquid non, debitis molestiae, asperiores 
+                        commodi minus nemo. Dolore repudiandae a dolorume!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row text-start ms-4">
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Ea laudantium illo harum earum</p>
+                      <p class="mt-n3 fs-6 me-1">
+                        Nam quas repellendus numquam ab dignissimos qui saepe error nulla 
+                        sequi pariatur repellat dicta. Vel, velit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col-2 bg-primary">
+                      <div></div>
+                    </div>
+                    <div class="col-10">
+                      <p class="fw-semibold">Tempore pariatur consequuntur volup</p>
+                      <p class="mt-n3 fs-6">
+                        Tempore pariatur consequuntur voluptatum, necessitatibus autem vero, 
+                        nulla velit ipsa temporibus odit, repudiandae!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Empty Column -->
+      <div class="col-1"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-black text-white-50 pt-5">
+    <div class="row">
+      <div class="col text-center">
+        <div class="text-primary h1">
+          <i class="fab fa-bootstrap fa-lg"></i>
+        </div>
+        <p class="fs-6 mt-n2">&copy; 2021</p>
+      </div>
+      <div class="col">
+        <p class="fw-semibold text-white">
+          Features
+        </p>
+        <p class="fs-6 lh-lg mt-n2">
+          Cool stuff<br>
+          Random feature<br>
+          Team feature<br>
+          Stuff for developers<br>
+          Another one<br>
+          Last time
+        </p>
+      </div>
+      <div class="col">
+        <p class="fw-semibold text-white">
+          Resources
+        </p>
+        <p class="fs-6 lh-lg mt-n2">
+          Resource<br>
+          Resource name<br>
+          Another resource<br>
+          Final resource
+        </p>
+      </div>
+      <div class="col">
+        <p class="fw-semibold text-white">
+          About
+        </p>
+        <p class="fs-6 lh-lg mt-n2">
+          Team<br>
+          Locations<br>
+          Privacy<br>
+          Terms
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./javascripts/main.js"></script>
 </body>
 </html>

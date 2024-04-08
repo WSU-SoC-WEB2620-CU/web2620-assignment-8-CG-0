@@ -1,0 +1,19 @@
+// Before Bootstrap
+$primary: #E0075E;
+$enable-negative-margins: true;
+$gradient: linear-gradient(45deg, rgba(224, 7, 94, 1) 8%, rgba(255, 255, 255, 1) 8%,
+                            rgba(255, 255, 255, 1) 30%, rgba(224, 7, 94, 1) 30%, 
+                            rgba(255, 255, 255, 1) 96%);
+$h6-font-size: 12px;
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// After Bootstrap
+.table-group-divider {
+    color: $primary;
+}
+
+.galleryTitle {
+    height: 237px;
+}
